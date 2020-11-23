@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+    
+body{
+        background-image: linear-gradient(to top, #4cd7e9 0%, #603dc2 100%);
+    
+}
+.card{
+    background-color: darkgrey
+    color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 300px;
+}
+.imagen{
+ width: 350px;
+ height: auto;
+ margin-bottom: 70px;
+ margin-left: -50px;
+
+}
+.titulo{
+text-align: center;
+padding: 20px;
+font-size: 70px;
+}
+.box{
+    margin: auto;
+    margin-bottom: 30px;
+    
+    
+}
+.contenido{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+footer{
+        background-image: url(../img/sld3.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+}
+footer .titulo-seccion{
+
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+    
+.copy{
+    color: cornsilk;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.redesociales{
+    padding-top: var(--marginelemental);
+    width: 80%;
+    display: flex;
+    margin:auto;
+    justify-content: center;
+}
+.redesociales i{
+    font-size: 60px;
+    justify-content: space-evenly;
+    color: whitesmoke;
+}
+
